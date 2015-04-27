@@ -1,0 +1,15 @@
+*.swp
+*.log
+*.pyc
+.git
+passcheck/password-files/passwords-ascii.txt
+passcheck/password-files/passwords-utf8.txt
+passcheck/password-files/passwords.txt
+passcheck/password-files/rockyou-ascii.txt
+passcheck/password-files/rockyou-utf8.txt
+passcheck/password-files/rockyou.txt
+passcheck/password-files/xato-10m-ascii.txt
+passcheck/password-files/xato-10m-utf8.txt
+passcheck/password-files/xato-10m.txt
+passcheck/password-files/temp.py
+README.md
