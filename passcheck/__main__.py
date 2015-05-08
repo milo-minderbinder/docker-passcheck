@@ -5,9 +5,9 @@ LOG_FILE = os.path.join(os.path.dirname(__file__), 'passcheck.log')
 logging.basicConfig(
     filename=LOG_FILE,
     filemode='a',
-    format='%(asctime)s %(name)s-%(levelname)s: %(message)s',
+    format='%(asctime)s %(name)s(%(levelname)s): %(message)s',
     level=logging.DEBUG)
-log = logging.getLogger('passcheck.main')
+log = logging.getLogger('passcheck')
 log.addHandler(logging.StreamHandler(sys.stdout))
 
 
